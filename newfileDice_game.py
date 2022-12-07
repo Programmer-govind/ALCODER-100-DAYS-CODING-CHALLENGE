@@ -5,12 +5,12 @@ import random
 import time
 
 p = ["","","","","",""]
-p[0] = pygame.image.load("d1.png")
-p[1] = pygame.image.load("d2.png")
-p[2] = pygame.image.load("d3.png")
-p[3] = pygame.image.load("d4.png")
-p[4] = pygame.image.load("d5.png")
-p[5] = pygame.image.load("d6.png")
+p[0] = pygame.image.load("d1.jpg")
+p[1] = pygame.image.load("d2.jpg")
+p[2] = pygame.image.load("d3.jpg")
+p[3] = pygame.image.load("d4.jpg")
+p[4] = pygame.image.load("d5.jpg")
+p[5] = pygame.image.load("d6.jpg")
 
 name1 = input("Enter name of player 1 : ")
 name2 = input("Enter name of player 2 : ")
