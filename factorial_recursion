@@ -1,0 +1,21 @@
+
+
+#Function definition
+
+def fact(num):    
+    if num == 0:
+        return 1
+    
+    elif(num == 0):
+        return 1
+    
+    else:
+        return num*fact(num-1)
+
+
+num = int(input("\nEnter the number to find factorial : "))
+res = fact(num)
+print("\nFactorial of ",num,"is",res)
+
+
+        

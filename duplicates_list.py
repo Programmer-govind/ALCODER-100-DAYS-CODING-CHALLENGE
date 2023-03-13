@@ -1,3 +1,6 @@
+
+#Removing Duplicates from list
+
 A = eval(input("Enter list of numbers : "))
 
 i = 0

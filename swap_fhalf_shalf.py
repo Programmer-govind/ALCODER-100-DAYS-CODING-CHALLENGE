@@ -1,4 +1,6 @@
 
+#Swapping first half elements with second half elements in a list
+ 
 list = eval(input("Enter a list of values : "))
 
 print("\nBefore Swap : ",list)

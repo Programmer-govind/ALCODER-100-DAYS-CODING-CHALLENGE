@@ -1,0 +1,75 @@
+import turtle
+t = turtle.Turtle()
+
+t.end_fill()
+t.setpos(150,40)
+t.color('green')
+t.begin_fill()
+for i in range(4):
+    t.forward(90)
+    t.right(90)
+    t.forward(90)
+ 
+t.end_fill()
+t.penup()
+t.setpos(-150,40)
+t.pendown()
+t.color('blue')
+t.begin_fill()
+for i in range(6):
+    t.forward(100)
+    t.right(60)  
+
+
+t.end_fill()
+t.penup()
+t.setpos(200,250)
+t.pendown()
+t.color('red')
+t.begin_fill()
+for i in range(5):
+    t.forward(100)
+    t.right(75)
+    
+    
+t.end_fill()
+t.penup()
+t.setpos(-100,100)
+t.pendown()
+t.color('orange')
+t.begin_fill()
+for i in range(4):
+    t.forward(90)
+    t.left(90)
+    t.forward(90)
+    
+t.end_fill()
+t.penup()
+t.setpos(-300,300)
+t.pendown()
+t.color('yellow')
+t.begin_fill()
+for i in range(3):
+    t.forward(120)
+    t.left(120)
+    t.left(120)
+t.end_fill()
+
+
+t.penup()
+t.setpos(270,300)
+t.pendown()
+t.color('pink')
+t.begin_fill()
+t.circle(120)
+t.end_fill()
+
+
+t.end_fill()
+
+
+
+
+
+
+t.clone()
